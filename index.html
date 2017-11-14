@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title>pathExample</title>
+		<meta charset='utf-8' />
+	</head>
+	<body>
+		<canvas id='example'>Обновите браузер</canvas>
+		<script>					
+			var example = document.getElementById("example"),
+			    ctx     = example.getContext('2d');
+			example.height = 1000;
+			example.width  = 1500;
+			ctx.strokeStyle = "#660000";
+			ctx.fillStyle = "#CC0000";
+			ctx.beginPath();
+			for (var i = 0; i < 1200; i += 220){
+			ctx.moveTo(50 + i,150);			
+			ctx.bezierCurveTo(55 + i,70,145 + i,70,150 + i,150);			
+			ctx.bezierCurveTo(155 + i,70,245 + i,70,250 + i,150);
+			ctx.moveTo(50 + i,150);
+			ctx.lineTo(50 + i,160);
+			ctx.lineTo(150 + i,300);
+			ctx.lineTo(250 + i,160);
+			ctx.lineTo(250 + i,150);			
+			}
+			ctx.fill();
+			ctx.stroke();	
+			 // *22
+		</script>
+	</body>
+</html>
