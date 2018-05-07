@@ -7,7 +7,6 @@
 
 html, body, .main_wrapper {height:100%;}
 
-
 .content_wrapper{
 	position:relative;
 	background-color: #6b7bf2;
@@ -66,7 +65,7 @@ a:hover{
 }
 .content_title{	
 	position:absolute;
-	top: 186px;
+	bottom: 45.5%;
 	left: 211px;
 	font-family: Roboto;
 	font-size: 32px;
@@ -93,12 +92,14 @@ a:hover{
 	width:480px;
 	height:104px;
 	left: 210px;
-	top: 358px;
+	bottom: 30.8%;
 }
 .content_button{
 	position:absolute;
-	top: 570px;
-	left: 210px;	
+	bottom: 19.2%;
+	left: 210px;
+	
+	
 }
 .content_button a{
 	position:absolute;
@@ -115,14 +116,18 @@ a:hover{
 	position: absolute;
 	bottom: 0px;
 	right: 20.5px;
+	width: 39.9%;
+	height: 50.5%;
+	overflow:hidden;
 }	
 
 .content_wrapper_img  img{
 	display: block;
 	padding:0;
 	margin:0;	
+	height:100%;
+	
 }		
-
 
 .footer_menu_wrapper{
 	position: relative;
@@ -144,4 +149,9 @@ a:hover{
 .footer_menu li img {
 	display:inline-block;
 	padding-left: 23px;
+}
+@media (max-width: 479px) {
+  .content_wrapper_img  img  {
+   display:none;
+  }
 }
