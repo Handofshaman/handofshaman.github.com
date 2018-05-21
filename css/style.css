@@ -102,10 +102,15 @@ a{
 a:hover{
 	color: #3e41ab;
 }
-.content_title{	
+
+.middle_wrapper{
+	display:block;
 	position:absolute;
-	bottom: 64.8%;
-	left: 211px;
+	left:210px;
+	bottom: 31.5%;
+}
+
+.content_title{		
 	font-family: Roboto;
 	font-size: 32px;
     font-weight: bold;
@@ -116,10 +121,10 @@ a:hover{
 	text-align: left;	
 	width: 428px;
 	height: 140px;
+	padding-bottom:15px;
 }
 
-.content_text{	
-	position:absolute;
+.content_text{		
 	font-family: Roboto;
 	font-size: 16px;
 	font-weight: normal;
@@ -128,21 +133,13 @@ a:hover{
 	line-height: 1.63;
 	letter-spacing: 0.1px;
 	text-align: left;
-	width:480px;
-	height:104px;
-	left: 210px;
-	bottom: 50.1%;
+	width:580px;
+	padding-bottom:15px;
 }
-.content_button{
-	position:absolute;
-	bottom: 38.5%;
-	left: 210px;
-	
+.content_button{	
 	
 }
-.content_button a{
-	position:absolute;
-	display:block;
+.content_button a{	
 	width:240px;
 	height: 59px;
 	background: url('../img/button.png') no-repeat;
@@ -160,10 +157,7 @@ a:hover{
 	height: 50.5%;
 	background: url("../img/robot.png") no-repeat;
 	background-size: contain;
-	background-position: bottom;
-	
-	
-	
+	background-position: bottom;	
 }	
 
 .content_wrapper_img  img{
@@ -208,13 +202,4 @@ a:hover{
 	display:inline-block;
 	padding-left: 23px;
 }
-@media screen and (max-width: 1024px){
-	h1{
-	font-size: 28px;	
-	}
-	.content_text{
-	font-size:12px;
-	}
 
-
-}
