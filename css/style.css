@@ -210,10 +210,10 @@ a:hover{
 }
 @media screen and (max-width: 1024px){
 	h1{
-	font-size:5vw;	
+	font-size: 28px;	
 	}
 	.content-text{
-	font-size:1.7vw;
+	font-size:12px;
 	}
 
 
