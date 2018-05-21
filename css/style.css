@@ -208,4 +208,13 @@ a:hover{
 	display:inline-block;
 	padding-left: 23px;
 }
+@media screen and (max-width: 1024px){
+	h1{
+	font-size:5vw;	
+	}
+	.content-text{
+	font-size:1.7vw;
+	}
 
+
+}
