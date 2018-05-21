@@ -104,7 +104,8 @@ a:hover{
 	color: #3e41ab;
 }
 
-.middle_wrapper{	
+.middle_wrapper{
+	display: none;
 	border: 1px solid red;
 	width: 800px;
 	
