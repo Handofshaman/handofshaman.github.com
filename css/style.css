@@ -104,7 +104,7 @@ a:hover{
 }
 .content_title{	
 	position:absolute;
-	bottom: 45.5%;
+	bottom: 64.8%;
 	left: 211px;
 	font-family: Roboto;
 	font-size: 32px;
@@ -131,11 +131,11 @@ a:hover{
 	width:480px;
 	height:104px;
 	left: 210px;
-	bottom: 30.8%;
+	bottom: 50.1%;
 }
 .content_button{
 	position:absolute;
-	bottom: 19.2%;
+	bottom: 38.5%;
 	left: 210px;
 	
 	
@@ -209,19 +209,3 @@ a:hover{
 	padding-left: 23px;
 }
 
-@media screen and (max-width: 1120px) {
-  h1{
-	font-size: 5vw;  
-  }  
-  .content_text{
-	font-size: 1.7vw; 
-  
-  }
-  .content_wrapper_img{
-	display:none;
-   }
-   .upper_menu{
-	left: 10%;
-	
-	}
-}
