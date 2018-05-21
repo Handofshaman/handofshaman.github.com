@@ -47,7 +47,6 @@
 html, body, .main_wrapper {height:100%;}
 
 .content_wrapper{
-	position:relative;
 	background-color: #6b7bf2;
 	width:100%;
 	height:80%;
@@ -56,18 +55,17 @@ html, body, .main_wrapper {height:100%;}
 
 .footer_wrapper{
 	position:relative;
+	bottom:0px;
 	background-color: #7e8ff4;
 	width:100%;
 	height:20%;
-
+	
 }
 
 .content{
-	position: relative;
 	margin: 0px auto;
-	/*border: 1px solid yellow;*/
-	width: 1440px;
 	height: 100%;
+	
 }
 
 
@@ -75,6 +73,7 @@ html, body, .main_wrapper {height:100%;}
 	position: absolute;
 	right: 10%;
 	top: 5.5%;
+	
 
 }
 ul{
@@ -84,6 +83,7 @@ ul{
 li{
 	display:inline-block;
 	padding-right: 31px;
+	
 	
 }
 
@@ -98,17 +98,18 @@ a{
     line-height: normal;
     letter-spacing: 0.2px;
 	
+	
 }
 a:hover{
 	color: #3e41ab;
 }
 
-.middle_wrapper{
-	display:block;
-	position:absolute;
-	left:210px;
-	top: 20.1%;
-	bottom: 20.1%;
+.middle_wrapper{	
+	border: 1px solid red;
+	width: 800px;
+	
+	
+	
 }
 
 .content_title{		
@@ -144,6 +145,7 @@ a:hover{
 	width:240px;
 	height: 59px;
 	background: url('../img/button.png') no-repeat;
+	
 }
 .content_button a:hover{
 	background-image: url('../img/button_press.png');
@@ -159,6 +161,7 @@ a:hover{
 	background: url("../img/robot.png") no-repeat;
 	background-size: contain;
 	background-position: bottom;	
+	
 }	
 
 .content_wrapper_img  img{
@@ -167,13 +170,14 @@ a:hover{
 	margin:0;	
 	height:100%;
 	
+	
 }		
 
 .footer_menu_wrapper{
 	position: relative;
 	margin: 0px auto;	
-	width: 1440px;
 	height: 100%;
+	
 
 }
 .footer_menu{
